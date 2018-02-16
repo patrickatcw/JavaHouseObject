@@ -5,7 +5,7 @@ public class House {
     //Step 1 create fields for House
     private String color;
     private String style;
-    private String size;
+    private int size;
     private int bedrooms;
     private int bathrooms;
     private int year;
@@ -13,7 +13,7 @@ public class House {
     private String basement;
 
     //Step 2 make my own constructor method with parameters
-    public House(String color, String style, String size, int bedrooms, int year, String garage, String basement){
+    public House(String color, String style, int size, int bedrooms, int year, String garage, String basement){
 
         //Step 3 this. to reference fields above
         this.color = color;
@@ -28,6 +28,36 @@ public class House {
     }
 
     //Step 4 create getter methods for this. fields
+    public String getColor(){
+        return this.color;
+    }
 
+    public String getStyle(){
+        return this.style;
+    }
+
+    public int getSize(){
+        return this.size;
+    }
+
+    public int getBedrooms(){
+        return this.bedrooms;
+    }
+
+    public int getBathrooms(){
+        return this.bathrooms;
+    }
+
+    public int grtYear(){
+        return this.year;
+    }
+
+    public String getGarage(){
+        return this.garage;
+    }
+
+    public String getBasement(){
+        return this.basement;
+    }
 
 }
