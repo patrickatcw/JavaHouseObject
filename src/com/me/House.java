@@ -11,9 +11,11 @@ public class House {
     private int year;
     private String garage;
     private String basement;
+    private int cost;
 
     //Step 2 make my own constructor method with parameters
-    public House(String color, String style, int size, int bedrooms, double bathrooms, int year, String garage, String basement){
+    public House(String color, String style, int size, int bedrooms, double bathrooms, int year, String garage,
+                 String basement, int cost){
 
         //Step 3 this. to reference fields above
         this.color = color;
@@ -24,6 +26,7 @@ public class House {
         this.year = year;
         this.garage = garage;
         this.basement = basement;
+        this.cost = cost;
 
     }
 
@@ -58,6 +61,10 @@ public class House {
 
     public String getBasement(){
         return this.basement;
+    }
+
+    public int getCost(){
+        return this.cost;
     }
 
 }
