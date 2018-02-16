@@ -27,4 +27,7 @@ public class House {
 
     }
 
+    //Step 4 create getter methods for this. fields
+
+
 }
