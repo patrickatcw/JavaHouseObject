@@ -18,7 +18,16 @@ public class Main {
                 "attached", "finished", 230_000);
 
         //Step 6 Printout logic and statements
-        System.out.println("We have narrowed our purchase options to the following house....");
+        System.out.println("We have narrowed our purchase options to the following houses...");
+        System.out.println("Choice 1 is a " + choice1.getColor() + " " + choice1.getStyle() + " with " +
+                choice1.getSize() + " square feet. It has " + choice1.getBedrooms() + " bedrooms with " +
+                choice1.getBathrooms() + " bathrooms. Built in " + choice1.getYear() + ", it has an " +
+                choice1.getGarage() + " garage, with a " + choice1.getBasement() + " basement. The asking price for this house" +
+                " is $" + choice1.getCost() + ".");
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
     }
 

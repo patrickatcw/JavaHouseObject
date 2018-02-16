@@ -51,7 +51,7 @@ public class House {
         return this.bathrooms;
     }
 
-    public int grtYear(){
+    public int getYear(){
         return this.year;
     }
 
