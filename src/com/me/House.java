@@ -15,7 +15,15 @@ public class House {
     //Step 2 make my own constructor method with parameters
     public House(String color, String style, String size, int bedrooms, int year, String garage, String basement){
 
-
+        //Step 3 this. to reference fields above
+        this.color = color;
+        this.style = style;
+        this.size = size;
+        this.bedrooms = bedrooms;
+        this.bathrooms = bathrooms;
+        this.year = year;
+        this.garage = garage;
+        this.basement = basement;
 
     }
 
