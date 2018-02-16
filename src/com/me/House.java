@@ -12,4 +12,11 @@ public class House {
     private String garage;
     private String basement;
 
+    //Step 2 make my own constructor method with parameters
+    public House(String color, String style, String size, int bedrooms, int year, String garage, String basement){
+
+
+
+    }
+
 }
